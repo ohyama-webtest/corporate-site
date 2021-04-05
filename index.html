@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="a">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>index.html</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- nav-pcクラス開始 -->
+  <section class="nav-pc">
+    <div class="container">
+      <p class="nav-left">コーポレートサイト名</p>
+      <ul class="nav-right">
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="page-company.html">会社情報</a></li>
+        <li><a href="page-job-description.html">職種紹介</a></li>
+        <!-- <li><a href="page-recruit.html">採用情報</a></li> -->
+        <li><a href="page-news.html">お知らせ一覧</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <a href="#info-1" class="info">
+        <div class="openbtn1"><span></span><span></span><span></span></div>
+      </a>
+    </div>
+  </section>
+  <!-- nav-pcクラス終了 -->
+
+  <!-- nav-spクラス開始 -->
+  <section id="info-1" class="hide-area">
+    <!--表示エリアのHTML。id名にリンク先と同じ名前を指定。非表示にするためhide-areaというクラス名も指定。-->
+    <ul>
+      <li id="info-text1"><a href="index.html">ホーム</a></li>
+      <li id="info-text2"><a href="page-company.html">会社情報</a></li>
+      <li id="info-text3"><a href="page-job-description.html">事業紹介</a></li>
+      <!-- <li id="info-text4"><a href="page-recruit.html">採用情報</a></li> -->
+      <li id="info-text5"><a href="page-news.html">お知らせ一覧</a></li>
+      <li id="info-text6"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </section>
+  <!-- nav-spクラス開始 -->
+
+
+  <!-- topクラス開始 -->
+  <header class="top">
+    <div class="container">
+      <div class="top-text-wrapper">
+        <h2>企業理念のキャッチコピー</h2>
+        <p class="top-text-sub">キャッチコピーのサブタイトル</p>
+        <p class="top-text">テキストが入りますテキストが入ります<br>
+          テキストが入りますテキストが入りますテキストが入ります<br>
+          テキストが入りますテキストが入ります
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- topクラス終了 -->
+
+
+  <!-- businessクラス開始 -->
+  <section class="business">
+    <div class="business-top">
+      <div class="container">
+        <h2>事業紹介</h2>
+        <!-- <p class="business-top-title">事業のタイトルが入ります</p> -->
+        <p class="business-top-text">テキストが入りますテキストが入ります</p>
+      </div>
+    </div>
+    <div class="business-item-wrapper">
+      <div class="container">
+
+        <div class="business-item">
+          <h3>その事業のモットー1</h3>
+          <div class="business-item-image">
+            <img src="./images/business-image1.png" alt="">
+          </div>
+          <p class="business-item-title">事業の名前が入ります</p>
+          <p class="business-item-text">事業内容 / 事業内容 / 事業内容事業内容 / 事業内容</p>
+        </div>
+        <div class="business-item">
+          <h3>その事業のモットー2</h3>
+          <div class="business-item-image">
+            <img src="./images/business-image2.png" alt="">
+          </div>
+          <p class="business-item-title">事業の名前が入ります</p>
+          <p class="business-item-text">事業内容 / 事業内容 / 事業内容 / 事業内容事業内容</p>
+        </div>
+        <div class="business-item">
+          <h3>その事業のモットー3</h3>
+          <div class="business-item-image">
+            <img src="./images/business-image3.png" alt="">
+          </div>
+          <p class="business-item-title">事業の名前が入ります</p>
+          <p class="business-item-text">事業内容事業内容 / 事業内容事業内容 / 事業内容 / 事業内容</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- businessクラス終了 -->
+
+
+  <!-- introductionクラス開始 -->
+  <section class="introduction">
+    <div class="introduction-top">
+      <h2>職種紹介</h2>
+      <p class="introduction-top-text">テキストが入りますテキストが入ります</p>
+    </div>
+    <div class="container">
+      <div class="introduction-content">
+        <h3>プログラマーの〇〇さんの1日</h3>
+        <div class="introduction-date">
+          <p>10：00 〜 ●●<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>13：00 〜 ■■<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>15：00 〜 ▲▲<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>17：00 〜 〇〇<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>18：00 〜 □□<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>19：00 〜 △△<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+          <p>20：00 〜 △△<span class="introduction-date-text">テキストが入りますテキストが入ります</span></p>
+        </div>
+      </div>
+      <div class="btn introduction-btn">
+        <a href="page-job-description.html">
+          <button>他の職種もチェックする</button>
+        </a>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+  <!-- introductionクラス終了 -->
+
+
+
+  <!-- newsクラス開始-->
+  <section class="news">
+    <div class="container">
+      <div class="news-top">
+        <h2>お知らせ</h2>
+        <p class="news-top-link"><a href="page-news.html">＞お知らせ一覧</a></p>
+      </div>
+      <div class="news-item">
+        <div class="news-item-right">
+          <p class="news-item-date">2021.03.19</p>
+          <p class="news-item-category">カテゴリー名</p>
+        </div>
+        <p class="news-item-text">テキストテキストテキスト</p>
+      </div>
+      <div class="news-item">
+        <div class="news-item-right">
+          <p class="news-item-date">2021.03.19</p>
+          <p class="news-item-category">カテゴリー名</p>
+        </div>
+        <p class="news-item-text">テキストテキストテキストああああああああああ</p>
+      </div>
+      <div class="news-item">
+        <div class="news-item-right">
+          <p class="news-item-date">2021.03.19</p>
+          <p class="news-item-category">カテゴリー名</p>
+        </div>
+        <p class="news-item-text">テキストテキストテキスト</p>
+      </div>
+      <div class="news-item">
+        <div class="news-item-right">
+          <p class="news-item-date">2021.03.19</p>
+          <p class="news-item-category">カテゴリー名</p>
+        </div>
+        <p class="news-item-text">テキストテキストテキスト</p>
+      </div>
+      <div class="news-item">
+        <div class="news-item-right">
+          <p class="news-item-date">2021.03.19</p>
+          <p class="news-item-category">カテゴリー名</p>
+        </div>
+        <p class="news-item-text">テキストテキストテキスト</p>
+      </div>
+      <div class="btn news-btn">
+        <a href="">
+          <button>お知らせ一覧</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- newsクラス終了 -->
+
+
+
+  <!-- companyクラス開始 -->
+  <section class="company">
+    <div class="container">
+      <h2>会社情報</h2>
+      <div class="company-item-wrapper">
+        <div class="company-item">
+          <h3>会社概要</h3>
+          <p class="company-lead">リードリードリード</p>
+          <div class="company-btn-wrapper">
+            <a href="page-company-profile.html" class="btn btn-border">詳細を見る</a>
+          </div>
+        </div>
+        <div class="company-item">
+          <h3>企業理念</h3>
+          <p class="company-lead">リードリードリード</p>
+          <div class="company-btn-wrapper">
+            <a href="page-company-philosophy.html" class="btn btn-border">詳細を見る</a>
+          </div>
+        </div>
+        <div class="company-item">
+          <h3>スタッフ紹介</h3>
+          <p class="company-lead">リードリードリード</p>
+          <div class="company-btn-wrapper">
+            <a href="page-company-other.html" class="btn btn-border">詳細を見る</a>
+          </div>
+        </div>
+        <div class="company-item">
+          <h3>沿革</h3>
+          <p class="company-lead">リードリードリードリードリードリード</p>
+          <div class="company-btn-wrapper">
+            <a href="page-company-history.html" class="btn btn-border">詳細を見る</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- companyクラス終了 -->
+
+
+  <!-- recruitクラス開始 -->
+  <section class="recruit">
+    <div class="container">
+
+    </div>
+  </section>
+  <!-- recruitクラス終了 -->
+
+
+  <footer>
+    <div class="container">
+      <p class="copyright">© 2021 〇〇corporation</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+  <!--自作のJS-->
+  <!-- <script src="js/script.js"></script> -->
+</body>
+
+</html>
